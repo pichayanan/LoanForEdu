@@ -16,9 +16,11 @@ a {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+  border-radius: 4px;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -43,7 +45,7 @@ html {
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
 button.accept-policy {
@@ -68,4 +70,42 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+._6luv {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  /* width: 396px; */
+  max-width: 396px;
+}
+._7luv {
+  /* align-items: center; */
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  /* box-sizing: border-box; */
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  /* width: 396px; */
+  max-width: 280px;
+  
+}
+.activeBtn {
+  font-size: 17px;
+  color: #FFFFFF;
+  background-color: #1877f2; 
+  border-radius: 5px;
+}
+.inactiveBtn {
+  font-size: 17px;
+  color: #bdbdbd;
+  background-color: #f5f5f5; 
+  border-radius: 5px;
 }
