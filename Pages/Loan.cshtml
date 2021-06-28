@@ -28,6 +28,10 @@
                 <label class="mb-1" for="net_salary">เงินเดือนคงเหลือสุทธิ</label>
                 <input asp-for="net_salary" id="net_salary" class="form-control"/>
             </div>
+            <div class="mb-3">
+                <label class="mb-1" for="amount">ยอดเงินที่ต้องการกู้</label>
+                <input asp-for="amount" id="amount" class="form-control"/>
+            </div>
             <div class="form-group mb-3">
                 <label class="mb-1" for="periods">กำหนดระยะเวลาของสัญญา</label>
                 <select class="form-control" id="periods" asp-for="periods">
@@ -44,6 +48,9 @@
                     <option>11</option>
                     <option>12</option>
                 </select>
+            </div>
+            <div class="mb-3">
+                <h6>วงเงินที่ได้รับการอนุมัติก็ต่อเมื่อยอดเงินที่ต้องการกู้ไม่เกิน เงินเดือนคงเหลือสุทธิ * ระยะเวลาของสัญญา เท่านั้น</h6>
             </div>
             <button class="btn btn-primary" style="display: block; background-color:#1877f2; color:#FFFFFF;"
                 type="submit">ส่งขอคำยื่นกู้</button>

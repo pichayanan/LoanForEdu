@@ -1,24 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dotnetProjects\\LoanForEdu\\LoanForEdu.csproj": {}
+    "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj": {}
   },
   "projects": {
-    "C:\\dotnetProjects\\LoanForEdu\\LoanForEdu.csproj": {
+    "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dotnetProjects\\LoanForEdu\\LoanForEdu.csproj",
+        "projectUniqueName": "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj",
         "projectName": "LoanForEdu",
-        "projectPath": "C:\\dotnetProjects\\LoanForEdu\\LoanForEdu.csproj",
-        "packagesPath": "C:\\Users\\akara\\.nuget\\packages\\",
-        "outputPath": "C:\\dotnetProjects\\LoanForEdu\\obj\\",
+        "projectPath": "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj",
+        "packagesPath": "C:\\Users\\6010110514\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\akara\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\6010110514\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2": {}
+        },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
@@ -34,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
