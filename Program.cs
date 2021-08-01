@@ -12,9 +12,9 @@ namespace LoanForEdu
 {
     public class Program
     {
-        public static string user = "demodotnet";
-        public static string pwd = "password";
-        public static string db = "localhost:1521/XEPDB1";
+        public static string user = "system";
+        public static string pwd = "Palm21465235";
+        public static string db = "localhost:1521/XE";
         public static string conStringUser = "";
         public static void Main(string[] args)
         {

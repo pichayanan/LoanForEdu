@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj": {}
+    "C:\\Users\\Palmpich\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj": {
+    "C:\\Users\\Palmpich\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj",
+        "projectUniqueName": "C:\\Users\\Palmpich\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj",
         "projectName": "LoanForEdu",
-        "projectPath": "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj",
-        "packagesPath": "C:\\Users\\6010110514\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6010110514\\Documents\\GitHub\\LoanForEdu\\obj\\",
+        "projectPath": "C:\\Users\\Palmpich\\Documents\\GitHub\\LoanForEdu\\LoanForEdu.csproj",
+        "packagesPath": "C:\\Users\\Palmpich\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Palmpich\\Documents\\GitHub\\LoanForEdu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\6010110514\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Palmpich\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
